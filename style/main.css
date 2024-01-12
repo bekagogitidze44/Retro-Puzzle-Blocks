@@ -1,0 +1,63 @@
+body {
+    margin: 50px auto 0;
+    padding: 25px;
+    background-color: rgba(255, 230, 230, 0.8);
+    position: relative;
+    text-align: left;
+    font-family: Verdana, sans-serif;
+    font-size: 22px;
+    color: rgba(0, 0, 0, .8);
+}
+
+h1, h2 {
+    color: rgba(0, 0, 0, .8);
+    margin-top: 0;
+    margin-bottom: 20px;
+    background: rgba(252, 220, 220, 0.9);
+    padding: 10px 0;
+    border-radius: 10px;
+    text-align: center;
+    font-size: 35px;
+}
+
+p {
+  color: rgba(0, 0, 0, .8);
+  font-weight: 500;
+  font-size: 18px;
+  letter-spacing: 1px;
+}
+
+ul {
+}
+li {
+  color: rgba(0, 0, 0, .8);
+  font-weight: 500;
+  font-size: 18px;
+  letter-spacing: 1px;
+  list-style-type:"- ";
+}
+
+.button {
+  position: fixed;
+  top: 0;
+  right: 15px;
+  margin: 10px;
+  padding: 20px;
+  text-align: center;
+  text-transform: uppercase;
+  transition: .2s;
+  background-size: 200% auto;
+  font-size: 20px;
+  font-weight: 700;
+  text-decoration: none;
+  color: rgba(255, 255, 255, 0.9);
+  box-shadow: 0 0 20px #61616173;
+  border-radius: 10px;
+  background-image: linear-gradient(to right, rgba(216, 162, 162, 0.9) 0%, rgba(255, 230, 230, 0.8) 51%, rgba(216, 162, 162, 0.9) 100%);
+}
+
+.button:hover {
+  background-position: right center;
+  color: rgba(0, 0, 0, .8);
+  text-decoration: none;
+}
